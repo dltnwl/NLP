@@ -97,17 +97,9 @@ pylab.xlim([-5.5, 10])
 pylab.ylim([-5.5, 10])
 
 
+for i in range(10):
+    ax.scatter(predictedSentiment[0], predictedSentiment[1])
 
-ax.scatter(predictedSentiment[0], predictedSentiment[1])
-ax.scatter(predictedSentiment1[0], predictedSentiment1[1])
-ax.scatter(predictedSentiment2[0], predictedSentiment2[1])
-ax.scatter(predictedSentiment3[0], predictedSentiment3[1])
-ax.scatter(predictedSentiment4[0], predictedSentiment4[1])
-ax.scatter(predictedSentiment5[0], predictedSentiment5[1])
-ax.scatter(predictedSentiment6[0], predictedSentiment6[1])
-ax.scatter(predictedSentiment7[0], predictedSentiment7[1])
-ax.scatter(predictedSentiment8[0], predictedSentiment8[1])
-ax.scatter(predictedSentiment9[0], predictedSentiment9[1])
 
 x=np.arange(-5.5, 11, 1)
 y=np.arange(-5.5, 11, 1)
