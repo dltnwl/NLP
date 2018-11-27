@@ -1,4 +1,4 @@
-# Nice_nlp
+# nlp
 
 
 Sentimental Analysis를 통한 기업 평가 
